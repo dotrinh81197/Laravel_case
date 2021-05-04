@@ -1,0 +1,37 @@
+:root {
+    --gray-color: rgb(17 40 67 / 50%);
+    --blue-color: #5bc5f2;
+    --pink-color: #fb4390;
+    --text-color: #333;
+    --boder-color: #dbdbdb;
+    --shadow-color: rgb(0 0 0 / 8%);
+    --line-color: #a7a9ad;
+    --subtitle-color: rgb(17 40 67 / 50%);
+    --ocean-color: #165baa;
+    --light-pink-color: #fa87b3;
+    --product-background-color: rgb(255 233 239);
+}
+.product_row--item {
+    height: auto;
+    background-color: var(--product-background-color);
+}
+
+p {
+    margin-left: 5rem;
+}
+.product-detail_info {
+    height: 350px;
+}
+.content_info {
+    text-align: justify;
+    font-size: larger;
+}
+.image_illustration {
+    display: flex;
+    text-align: center;
+    
+}
+.info {
+    display: flex;
+    text-align: justify;
+}
